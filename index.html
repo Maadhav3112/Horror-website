@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Blackwood Asylum</title>
+
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+
+<script defer src="utils.js"></script>
+<script defer src="main.js"></script>
+
+</head>
+
+<body>
+
+<div class="noise"></div>
+
+<header class="hero">
+
+<h1>BLACKWOOD ASYLUM</h1>
+
+<p>Every room remembers.</p>
+
+<a class="enter-btn" href="map.html">
+ENTER
+</a>
+
+</header>
+
+<script>
+window.addEventListener(
+"pointerdown",
+()=>{
+import("./effects.js");
+},
+{once:true}
+);
+</script>
+
+</body>
+</html>
